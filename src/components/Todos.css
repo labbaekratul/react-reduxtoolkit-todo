@@ -9,7 +9,6 @@
 }
 
 .single-todo {
-  margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +20,10 @@
   justify-content: space-between;
   align-items: center;
   width: 80%;
+  border: 1px solid whitesmoke;
+  padding: 0 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
 }
 
 .todo {
