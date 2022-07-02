@@ -1,0 +1,46 @@
+.todos {
+  margin-top: 100px;
+}
+
+.todos > h1 {
+  text-align: center;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.single-todo {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-todo-fields {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+}
+
+.todo > p {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.edit-delete {
+  display: flex;
+  align-items: center;
+}
+
+.edit-delete > span {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}

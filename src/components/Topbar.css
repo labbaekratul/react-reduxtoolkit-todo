@@ -1,0 +1,12 @@
+.topbar {
+  background: #5e00b8;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar > h2 {
+  color: #fff;
+  font-weight: 400;
+}
