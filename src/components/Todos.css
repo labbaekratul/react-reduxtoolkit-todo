@@ -47,3 +47,21 @@
   cursor: pointer;
   font-size: 18px;
 }
+
+.editInput {
+  padding: 8px;
+  border: none;
+  background: #e2e3e7;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+
+.updateBtn {
+  margin-left: 5px;
+  color: green;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 2px;
+}

@@ -3,7 +3,7 @@ import "./Topbar.css";
 const Topbar = () => {
   return (
     <div className="topbar">
-      <h2>Topbar</h2>
+      <h2>Todo App</h2>
     </div>
   );
 };

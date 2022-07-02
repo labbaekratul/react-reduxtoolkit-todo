@@ -6,12 +6,13 @@ import { useSelector } from "react-redux";
 const Todos = () => {
   const todos = useSelector((state) => state.todos);
 
-  console.log(todos);
-
   return (
     <div className="todos">
       <h1>List of Todos</h1>
-      {todos && todos.map((item, i) => <Todo key={i} item={item} />)}
+      {todos &&
+        todos.map((item, index) => (
+          <Todo key={item.id} item={item} index={index} />
+        ))}
     </div>
   );
 };
